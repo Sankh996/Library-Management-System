@@ -1,0 +1,19 @@
+# Ignore specific executable extensions
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore common build folders
+bin/
+obj/
+dist/
+build/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore environment/sensitive files
+.env
+*.log
